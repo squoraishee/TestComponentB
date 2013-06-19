@@ -1,5 +1,6 @@
 package com.vmn.ComponentB;
 
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -16,12 +17,8 @@ public class ComponentB extends Activity {
 		setContentView(R.layout.activity_component_b);
 	
 		view = (TextView)findViewById(R.id.component_version_text);
-		try {
-			view.setText(getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
-		} catch (NameNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		//view.setText(getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
+		view.setText(getResources().getString(R.string.libB));
 	}
 
 	@Override
