@@ -118,7 +118,6 @@
                         </goals>
                         <configuration>
                             <manifest>
-                                <versionName>${artifact.version}</versionName>
                                 <versionCodeUpdateFromVersion>true</versionCodeUpdateFromVersion>
                             </manifest>
                         </configuration>
