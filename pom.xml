@@ -110,19 +110,6 @@
                     </sdk>
                 </configuration>
                 <extensions>true</extensions>
-                <executions>
-                    <execution>
-                        <id>update-manifest</id>
-                        <goals>
-                            <goal>manifest-update</goal>
-                        </goals>
-                        <configuration>
-                            <manifest>
-                                <versionCodeUpdateFromVersion>true</versionCodeUpdateFromVersion>
-                            </manifest>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
         <pluginManagement>
