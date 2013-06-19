@@ -36,8 +36,7 @@
     <build>
         <sourceDirectory>src</sourceDirectory>
         <finalName>${project.artifactId}-${artifact.version}</finalName>
-        
-        <plugins>
+    
         <resources>
             <!-- a pair definition for resource filtering of xml files only (not binary files since they get mangled -->
             <resource>
